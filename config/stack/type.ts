@@ -1,3 +1,4 @@
 export type StackParams = {
-  Home: undefined;
+  Root: undefined;
+  Splash: undefined;
 };

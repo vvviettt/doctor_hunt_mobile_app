@@ -1,10 +1,15 @@
-import {SafeAreaView, Text} from 'react-native';
+import {View} from 'react-native';
+import Header from './components/Header';
+import {CommonStyles} from '../../constant/styles/styles';
+import CategorySection from './components/CategorySection';
 
 const HomeScreen = () => {
   return (
-    <SafeAreaView>
-      <Text>Home</Text>
-    </SafeAreaView>
+    <View>
+      <Header />
+      <View style={[CommonStyles.h50]} />
+      <CategorySection />
+    </View>
   );
 };
 
